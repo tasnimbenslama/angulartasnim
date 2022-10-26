@@ -251,7 +251,7 @@ public class FXMLDocumentController implements Initializable {
     private void Clicked(MouseEvent event) {
        
    formation formation = table.getSelectionModel().getSelectedItem();
-    //ID.setText(""+formation.getIdF());
+    ID.setText(""+formation.getIdF());
     TITRE.setText(""+formation.getTitre());
     DESC.setText(""+formation.getDescription());
     NIVEAU.setText("" +formation.getNiveau());
